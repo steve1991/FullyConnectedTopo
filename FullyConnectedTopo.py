@@ -23,7 +23,7 @@ class FullyConnectedTopo(Topo):
 
 def simpleTest():
   "Create and test a simple network"
-  m = 4
+  m = input("please input the size of the network n:")
   topo = FullyConnectedTopo(n=m)
   net = Mininet(topo)
   net.start()
